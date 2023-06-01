@@ -1,0 +1,8 @@
+<div class="card-container row m-3 text-center">
+    <div *ngFor="let song of songs" class="card m-3" style="width: 18rem;">
+        <img [src]="song.icons[0].url" class="card-img-top" alt="categories">
+        <div class="card-body">
+            <h5 class="card-title">{{song.name}}</h5>
+        </div>
+    </div>
+</div>
